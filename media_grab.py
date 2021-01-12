@@ -17,10 +17,12 @@ import urllib.parse
 
 dead_tweets = []
 stale_tweets = []
+live_tweets = []
 new_tweets = []
 
 dead_profiles = []
 stale_profiles = []
+live_profiles = []
 new_profiles = []
 
 
