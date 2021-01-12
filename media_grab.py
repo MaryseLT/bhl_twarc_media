@@ -113,7 +113,7 @@ def fetch_media_for_feed(feed_dict):
                 except urllib.error.URLError as e:
                     logger.info("{0} stopped at > {1}".format(e,url))
                     print("{0} stopped at > {1}".format(e,url))
-                    print("Retry adapter will retry request in 60 seconds")
+                    print("*** RETRY ADAPTER ACTIVATED ***")
 
                 except requests.exceptions.Timeout as e:
                     logger.info("{0} stopped at > {1}".format(e,url))
@@ -166,7 +166,7 @@ def fetch_media_for_feed(feed_dict):
                 except urllib.error.URLError as e:
                     logger.info("{0} stopped at > {1}".format(e,url))
                     print("{0} stopped at > {1}".format(e,url))
-                    print("Retry adapter will retry request in 60 seconds")
+                    print("*** RETRY ADAPTER ACTIVATED ***")
 
                 except requests.exceptions.Timeout as e:
                     logger.info("{0} stopped at > {1}".format(e,url))
