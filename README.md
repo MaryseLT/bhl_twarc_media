@@ -3,6 +3,7 @@ A complementary script to the [Bentley Historical Library's implementation](http
 
 ## Requirements
 * [Python 3](https://www.python.org/)
+* [requests](https://pypi.org/project/requests/)
 
 ## BHL TWARC MEDIA Set Up
 * Clone `bhl_twarc_media.py`
