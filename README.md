@@ -35,5 +35,5 @@ feeds
   * [extract_urls.py](https://github.com/bentley-historical-library/bhl_twarc/blob/master/scripts/extract_urls.py)
   * [fetch_media.py](https://github.com/bentley-historical-library/bhl_twarc/blob/master/scripts/fetch_media.py)
   
-### media Directory Alternations
+### Potential media Directory Alternations
 If the `profile_images` directory and/or `tweet_images` directory are not present, it/they will be created.
