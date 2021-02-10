@@ -1,5 +1,15 @@
 # Code adapted from fetch_media.py, crawl_feeds.py, & bhl_twarc.py
 
+import argparse
+import csv
+import logging
+import os
+from os.path import join
+import requests
+import time
+import urllib.request
+import urllib.parse
+
 dead_tweets = []
 stale_tweets = []
 del_tweets = []
@@ -184,7 +194,6 @@ def get_tweets(media_urls):
     else:
         print("No TWEETS to Download...")
     return
-
 
 def get_profs(profile_image_urls):
     if len(profile_image_urls) != 0:
