@@ -10,9 +10,6 @@ import time
 import urllib.request
 import urllib.parse
 
-# ['bbum','drmarkschlissel','flintwatercrisis','gretchenwhitmer','hailtothefrontline','mgograd','migov','mlawloud','geo3550', 'studentsdemandr', 'SwcUmich', 'UMMakesUsSick', 'UMResstaff']
-feed_dir = '/Users/maryse/Desktop/codes/bhl_scripts/twitter_test/feeds'
-feed_dict = ['geo3550']
 
 dead_tweets = []
 stale_tweets = []
