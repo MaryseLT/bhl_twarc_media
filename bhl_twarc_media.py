@@ -10,6 +10,7 @@ import time
 import urllib.request
 import urllib.parse
 
+
 dead_tweets = []
 stale_tweets = []
 del_tweets = []
